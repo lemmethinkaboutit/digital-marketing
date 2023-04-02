@@ -64,7 +64,7 @@
     <p>Internet marketing allows businesses to tailor their advertising campaigns to match the needs of their target audience. Businesses can also personalize communication between them and their clients. This makes certain that your service or product will reach your prospects in a timely fashion. Moreover, it strengthens the brand image and presence of the company.</p>
  <!--another image-->
  <img src="" alt="">
- <h4>Why Digital Marketing Effors Fail</h4>
+ <h4>Why Digital Marketing Effors Fail?</h4>
  
  <img src="" alt="">
  <h2>Digital Marketing Strategy 
@@ -136,15 +136,73 @@
               
               </p>
 
+              <h2>Types of websites</h2>
+
+              <h3>Static Websites</h3>
+              <p>Static sites are web pages that are pre-built and served to the user exactly as they were built, without any server-side processing or user-specific customization. Static sites are generated using simple HTML, CSS, and JavaScript files, which are served directly to the user's web browser.
+                <br/>A typical example of that would be this site. as it is used to provide information.
+              </p>
+
+              <h3>Dynamic Websites</h3>
+              <p>Dynamic sites are web pages that are generated on the server-side in response to user requests, using server-side programming languages and databases. They allow for user-specific content and interactions, such as personalized recommendations and user authentication. Dynamic sites are often used for e-commerce and social media websites, but can be more complex to build and maintain than static sites.</p>
+              <button class="cta" onclick="showPopup();">Sign Me Up!</button>
+            
+
 
 
   </section>
   <section id="seo">
     <h2>Search Engine Optimization</h2>
+
+  <h3>Alt text in images</h3>
+  <p>Alt text, short for "alternative text," is a description or textual representation of an image or graphic element on a web page that can be read by screen readers and other assistive technologies.</p>
+  <br/>
+  <img class="brown" src="img/browncat.jpeg" alt="cute brown kitten">
+  <h3>For example to find the alt text behind above image:
+  </h3>
+  <br/>
+  <p><b>Step 1:</b> Rigth click on the image and in the drop down menu click on the inspect option: <br/> <img src="img/step-1.png" alt=""></p>
+  <p><b>Step 2:</b> In dev tools on the right you can see the img element showing the atrributes of img: <br/> <img src="img/step-2.png" alt=""></p>
+<h3>however the text below show an example of alt text on page if for some reason site failed load the image</h3>
+  <img src="img/brownc  t.jpeg" alt="cute brown kitten">
+<br/>
+<br/>
+<hr>
   </section>
 </main>
 
+<div class="popup" id="popup">
+  <div class="blanket"></div>
+  <div class="content">
+    <h2>Fill In Your Details</h2>
+    <form action="">
+      <div class="row">
+        <div class="item">
+          <label>Your First Name</label>
+          <input type="text" placeholder="Awesomeface" value="Shirley">
+        </div>
+        <div class="item">
+          <label>Your Last Name</label>
+          <input type="text" placeholder="Circleface">
+        </div>
+      </div>
+      <div class="row">
+        <div class="item">
+          <label>Your Favourite Color</label>
+          <input type="text" placeholder="Pink">
+        </div>
+        <div class="item">
+          <label>Your Favourite Food</label>
+          <input type="text" placeholder="Apple Pie">
+        </div>
+      </div>
+      <button class="cta">I Want In!</button>
+    </form>
+    <button class="close" onclick="hidePopup();">Close</button>
+  </div>
+</div>
 
+<script src="script.js" type="text/javascript"></script>
   
 
   </body>
