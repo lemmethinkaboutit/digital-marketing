@@ -1,0 +1,97 @@
+
+* {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+body {
+    
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    position: fixed;
+    width: 300px;
+}
+
+main {
+    position: absolute;
+    left: 300px;
+    border-left: 2px solid black;
+    padding-left: 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul li {
+    list-style-type: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 25px;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: 100;
+    border-top: 1px solid black;
+    color: #4d4e53;
+}
+
+h1{
+    margin: 0;
+    padding: 10px 25px;
+    text-align: left;
+    font-size: 1.7em;
+    font-weight: 600;
+    padding-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: 100;
+    
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 100;
+    padding-left: 10px;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 100px;
+    font-weight: 100;
+    line-height: 1.5;
+    font-size: 1.0em;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: #4d4e53;
+}
+.introduction {
+    padding-left: 20px;
+}
+
+
+ul li a:hover {
+    padding: 10px 5px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px 1px rgba(128, 128, 128, .2);
+    background-color: rgb(243, 243, 243);
+}
+
+.logo {
+    color: white;
+    background-color: darkslateblue;
+    padding: 5px 10px;
+}
