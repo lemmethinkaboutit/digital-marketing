@@ -202,7 +202,15 @@
   </div>
 </div>
 
-<script src="script.js" type="text/javascript"></script>
+<script>function showPopup () {
+	var popup = document.getElementById('popup');
+	popup.classList.add('show')
+}
+
+function hidePopup () {
+	var popup = document.getElementById('popup');
+	popup.classList.remove('show')
+}</script>
   
 
   </body>
